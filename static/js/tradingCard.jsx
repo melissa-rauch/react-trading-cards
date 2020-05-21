@@ -44,3 +44,58 @@ ReactDOM.render(
   ),
   document.querySelector('#llambda')
 );
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Merge"
+      skill="welding"
+      imgUrl="/static/img/merge.jpg"
+    />
+  ),
+  document.querySelector('#merge')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Off-By-One"
+      skill="Unicycling"
+      imgUrl="/static/img/off-by-one.jpg"
+    />
+  ),
+  document.querySelector('#off-by-one')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Polymorphism"
+      skill="speaks 5 languages"
+      imgUrl="/static/img/polymorphism.jpg"
+    />
+  ),
+  document.querySelector('#polymorphism')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Seedpy"
+      skill="Gardening"
+      imgUrl="/static/img/seedpy.jpg"
+    />
+  ),
+  document.querySelector('#seedpy')
+);
+
+ReactDOM.render(
+  (
+    <TradingCard
+      name="Shortstack-Overflow"
+      skill="organizing"
+      imgUrl="/static/img/shortstack-overflow.jpg"
+    />
+  ),
+  document.querySelector('#shortstack-overflow')
+);
